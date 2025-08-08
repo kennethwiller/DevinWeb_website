@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WebDevin - Startup especializada em criação de websites, automações e chatbots">
+    <title>WebDevin - Soluções Digitais</title>
+    <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+    <div class="menu-overlay" id="menu-overlay"></div>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1><span class="highlight">Web</span>Devin</h1>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#services" class="nav-link">Serviços</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transforme sua presença digital</h1>
+                <p>Soluções tecnológicas inovadoras para impulsionar seu negócio</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn">Nossos Serviços</a>
+                    <a href="#contact" class="btn btn-outline">Fale Conosco</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll" style="opacity: 0; transform: translateY(20px);">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Criação de Websites</h3>
+                    <p>Desenvolvemos sites responsivos, modernos e otimizados para o seu negócio, garantindo uma experiência excepcional para seus usuários.</p>
+                </div>
+                <div class="service-card animate-on-scroll" style="opacity: 0; transform: translateY(20px);">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Automações</h3>
+                    <p>Automatizamos processos repetitivos para aumentar a eficiência do seu negócio, economizando tempo e recursos.</p>
+                </div>
+                <div class="service-card animate-on-scroll" style="opacity: 0; transform: translateY(20px);">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>ChatBots</h3>
+                    <p>Criamos chatbots inteligentes para atendimento ao cliente, suporte técnico e automação de vendas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title animate-on-scroll">Sobre a WebDevin</h2>
+                <p class="animate-on-scroll">Somos uma startup especializada em soluções digitais inovadoras. Nossa missão é ajudar empresas a se destacarem no ambiente digital através de tecnologias modernas e eficientes.</p>
+                <p class="animate-on-scroll">Com uma equipe de profissionais altamente qualificados, oferecemos serviços personalizados que atendem às necessidades específicas de cada cliente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Entre em Contato</h2>
+            <div class="contact-container animate-on-scroll">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contato@webdevin.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(87) 98170-7415</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Custódia, PE</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/webdevin_/profilecard/?igsh=MTVsNGZmdGM3cGhxYg==" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Assunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 WebDevin. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

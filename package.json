@@ -1,0 +1,20 @@
+{
+  "name": "webdevin-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page para a startup WebDevin",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "dev": "serve"
+  },
+  "keywords": [
+    "landing-page",
+    "webdevin",
+    "website"
+  ],
+  "author": "WebDevin",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.0"
+  }
+}
